@@ -1,0 +1,27 @@
+framework  steps.txt
+download and install git(for windows),use :- https://www.youtube.com/watch?v=nbFwejIsHlY
+1. create folder->right click->open git bash here
+2. dir >filename.extension
+3.git add filename.extension(git add .)(to add all changes)
+4.git status(shows uncommited changes to existing file and new unadded files)
+5.git commit -m "message commit success"(else it will take you to text editor to type message in quotes)
+6.git remote add origin ()(choose clone / download in master branch copy the .git https url)
+7.to check current remote origin:- git remote -v
+8. git remote set-url origin ()(choose clone / download in master branch copy the .git https url) and  verif
+   if set using git remote -v
+9.git fetch origin master
+10.git merge origin master
+
+After to wrote this code I received other error: (non-fast-forward)
+
+I write this code:
+
+11.git fetch origin master:tmp
+12.git rebase tmp
+13.git push origin HEAD:master
+14.git branch -D tmp
+15.git push -u origin master
+16.git config --global user.email ""
+17.git config --global user.name  ""
+18.git log
+19.git --help
