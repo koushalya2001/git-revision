@@ -25,3 +25,16 @@ I write this code:
 17.git config --global user.name  ""
 18.git log
 19.git --help
+20.git branch "branch-name"(create local branch)
+21.git checkout branch-name(enter local branch to make changes in code existing in master without affecting code in master)
+22.dir > filename.extension
+23.git add filename.extension or git add .
+24.git commit -m ""
+25.git status
+26.git push origin -u branch-name(do remote branching)
+27.git checkout master(always enter master to merge)(here the file u created in branch will not be seen)
+28.git merge "branch-name"(do local merging)
+(here the file u created in branch will now be seen)
+29.git push -u origin master(do remote merging)
+   merge will occur in site
+30. After merging changed codes of b in 
